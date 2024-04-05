@@ -1,30 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import {useLocalState} from "./util/useLocalStorage";
+import {useEffect} from "react";
 
 function App() {
+    const [jwt, setJwt] = useLocalState("","jwt");
 
-  const reqBody = {
-    username: "petowner",
-    password: "asdfasdf",
-  };
+    useEffect(() => {
+        if(!jwt){
+            const reqBody = {
+                username: "petowner",
+                password: "asdfasdf",
+            };
+            fetch("api/auth/login", {
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                method: "post",
+                body: JSON.stringify(reqBody),
+            })
+                .then((response) => Promise.all([response.json(), response.headers]))
+                .then(([body, headers]) => {
+                        setJwt(headers.get("authorization"));
+                    });
+        }
+    }, []);
 
-  fetch("api/auth/login", {
-    headers: {
-      "Content-Type": "application/json"
-    },
-    method: "post",
-    body: JSON.stringify(reqBody),
-  })
-      .then((response) => Promise.all([response.json(), response.headers]))
-      .then(([body, headers]) => {
-            const authValue = headers.get("authorization");
-            console.log(authValue);
-          }
-      );
 
-  return(
+
+    return(
       <div className="App">
-        <h1>Hello World</h1>
+        <h1>Jwt values is {jwt}</h1>
       </div>
   );
 }
