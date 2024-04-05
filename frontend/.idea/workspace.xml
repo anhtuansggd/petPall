@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9d95184-ab34-448d-b0a2-e9cdfaa216e5" name="Changes" comment="" />
+    <list default="true" id="0c07979d-551c-42be-a768-2f867be4420e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -16,10 +23,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2ee3pyJSRdvyWIqwH40jnB29WaP" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2ef4xpcJFKI7W1i5U3JQJGR4yMs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "frontend/init",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tuan/Documents/1. Project/3. petPal/backend/pom.xml",
+    "last_opened_file_path": "/home/tuan/Documents/1. Project/3. petPal",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,20 +47,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="frontend" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="frontend" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Homepage" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -64,13 +63,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e9d95184-ab34-448d-b0a2-e9cdfaa216e5" name="Changes" comment="" />
-      <created>1712251402770</created>
+      <changelist id="0c07979d-551c-42be-a768-2f867be4420e" name="Changes" comment="" />
+      <created>1712282548412</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1712251402770</updated>
-      <workItem from="1712251404021" duration="2362000" />
-      <workItem from="1712281839624" duration="378000" />
+      <updated>1712282548412</updated>
+      <workItem from="1712282550128" duration="3573000" />
     </task>
     <servers />
   </component>
